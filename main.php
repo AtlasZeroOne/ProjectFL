@@ -26,8 +26,8 @@
 
                 <div class="fullname">
                     <p> My name is
-                    <?php echo $name, ' ', $surname;
-		echo 'from', ' ', $city; ?>
+                    <?php echo $name, ' ', $surname . '<br>';
+		             echo 'from', ' ', $city; ?>
                     </p>
                     <p> I am
                     <?php  echo $age;   ?>
@@ -44,7 +44,7 @@
 </div>
 
              <div class="knowledge">
-<p class="text">For instance, here you can check the number of full days between any date and today:
+<p class="text">For instance, here you can check the number of full days between any date and today: <br>
 P.S. This piece of code was brazenly borrowed by me, which I honestly admit</p>
 <br>
             <form action="action_page.php" method="POST">
