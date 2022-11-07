@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1,
+h2,
+ul {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container {
+
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    border-width: 1px;
+    margin-bottom: 3em;
+    background-color: #c9d519;
+}
+
+ul  {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #202225;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #848484;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: auto;
+    align-content: center;
+}
+.iam {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #bd5f23;
+    margin-left: 20px;
+    width: 70%;
+}
+img
+{
+    border-radius: 50%;
+    width: 150px;
+}
+.image-wrapper {
+    height: 100px;
+    width: 100px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+.myImg {
+    width: 150px;
+    height: 150px;
+
+}
+
+.knowledge {
+    display: list-item;
+    justify-content: center;
+}
+
+.article {
+    margin-top: 2em;
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #414149;
+    margin-left: 20px;
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.text {
+    font-size: 1rem;
+    color: #585858;
+}
+
+h2 {
+    text-align: right;
+    color: #202225;
+}
+
+h1 {
+    color: #8a7908;
+    text-align: center;
+    font-size: 2rem;
+    align-content: center;
+}
+
+.footer {
+    background-color: #8a7908;
+    flex: 0 0 auto;
+}
